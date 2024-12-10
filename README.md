@@ -2,6 +2,7 @@
 
 ## Temperature Check
 Write a Python program that asks the user to input the current temperature in Celsius. If the temperature is above 30 degrees, print "It's a hot day." Otherwise, print "The weather is cool."
+
 temperature = float(input("Enter the current temperature in Celsius: "))
 
 if temperature > 30:
