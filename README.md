@@ -12,7 +12,15 @@ else:
   
 ## Number Comparison
 Write a program that asks the user to input two numbers. Use an if condition to print which number is larger or if they are equal.
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
+if num1 > num2:
+  print(f"{num1} is larger.")
+elif num1 < num2:
+  print(f"{num2} is larger.")
+else: 
+  print("Both numbers are equal.") 
 ## Password Checker
 Set an admin password. Ask the user to input a password. If the entered password matches the admin password, print "Access granted." If not, print "Access denied."
 
